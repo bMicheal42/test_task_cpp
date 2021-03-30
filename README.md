@@ -27,6 +27,7 @@
 ### My comments
 ```
 1. Program install random size for std::vector and std::map
-   no explanation in the task (you can change max size in define)
+   no explanation in the task; (you can change max size in define).
 2. No sorting used.
+3. Added outputs for better visualization.
 ```
