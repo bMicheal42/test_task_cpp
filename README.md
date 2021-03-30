@@ -24,9 +24,9 @@
         
 3. Use `cmake` or just `clang++ main.cpp`    
 
-## How it works
-```shell
-1. Program install random size for `std::vector` and `std::map`
-        (you can change max size in define)
-2. fill both containers with random `int` from 1 to 9
+### My comments
+```
+1. Program install random size for std::vector and std::map
+   no explanation in the task (you can change max size in define)
+2. No sorting used.
 ```
