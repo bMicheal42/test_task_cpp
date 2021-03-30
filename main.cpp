@@ -1,6 +1,7 @@
 #include "utils.hpp"
 #define EL_DEL_     15
 #define MAX_SIZE_   15
+
 void    synchronize(std::map<int, int> &map, std::vector<int> &vec)
 {
 	std::pair<bool, bool> arr[10] = {};
