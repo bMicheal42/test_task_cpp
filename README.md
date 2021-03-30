@@ -11,4 +11,15 @@
 3.после этого провести синхронизацию, чтобы в vector и map остались только имеющиеся в обоих контейнерах элементы (дубликаты не удалять).
 ```
 
-## How to use
+`This project was code for MACOS`
+
+## Building and running the project
+1. Download/Clone this repo
+
+        git clone https://github.com/bMicheal42/test_task_cpp.git
+        
+2. `cd` into the root directory
+        
+        cd test_task_cpp
+        
+3. use `cmake` or just `clang++ main.cpp`    
