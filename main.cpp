@@ -4,7 +4,7 @@
 #define MAX_SIZE_   15
 
 void    synchronize(std::map<int, int> &map, std::vector<int> &vec) {
-	std::pair<bool, bool> arr[10] = {};
+	std::pair<bool, bool> arr[9] = {};
 
 	for (const auto &[key, val] : map)
 		arr[val].first  = true;
@@ -38,7 +38,7 @@ void    delete_elems(std::map<int, int> &map, std::vector<int> &vec) {
 
 void    fill_conts(std::map<int, int> &map, std::vector<int> &vec) {
 	std::random_device                  rd;
-	std::uniform_int_distribution<int>  dist(0, 9);
+	std::uniform_int_distribution<int>  dist(1, 9);
 	std::uniform_int_distribution<int>  create_dist(0, MAX_SIZE_);
 	size_t                              size = create_dist(rd);
 
