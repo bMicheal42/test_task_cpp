@@ -4,7 +4,7 @@
 #define MAX_SIZE_   15
 
 void    synchronize(std::map<int, int> &map, std::vector<int> &vec) {
-	std::pair<bool, bool> arr[9] = {};
+	std::pair<bool, bool> arr[10] = {};
 
 	for (const auto &[key, val] : map)
 		arr[val].first  = true;
