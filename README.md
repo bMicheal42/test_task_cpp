@@ -22,7 +22,7 @@
         
         cd test_task_cpp
         
-3. Use `cmake` or just `clang++ main.cpp`    
+3. Use `cmake` or just `clang++ -std=c++2a main.cpp`    
 
 ### My comments
 ```
